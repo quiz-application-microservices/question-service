@@ -149,6 +149,9 @@ public class QuestionController {
     }
 
 
+
+
+    //methods that are quested by the quiz service
     //generate a quiz
     @GetMapping("/generateQuiz")
     public ResponseEntity<List<Integer>> getQuestionsForQuiz
